@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--********************* Dialog *********************-->
+    <style name="FzDialogSty" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/radius_white_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:minWidth">@dimen/fz_min_width</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/fz_spacing_horizontal</item>
+    </style>
+
+</resources>

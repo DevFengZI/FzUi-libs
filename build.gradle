@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "file:///Users/sf/Desktop//maven/"
+
+        }
+    }
+}
+
+ext {
+    buildToolsVersion = "27.0.3"
+    applicationId = "com.demo.wytxs"
+    compileSdkVersion = 25
+    minSdkVersion = 14
+    targetSdkVersion = 27
+    versionCode = 170608
+    versionName = "1.0.4"
+    abortOnLintError = false
+    checkLintRelease = false
+    useJack = false
+    abortOnLintError = false
+    libWyHttp = "com.sdk.wyhttputils:BaseHttp-lib:1.0.0"
+    libWyUi = "com.sdk.uilib:BaseUi-lib:1.0.0"
+    libWyRes = "com.sdk.reslib:BaseRes-lib:1.0.0"
+    libWyUtils = "com.sdk.utilslib:BaseUtils-lib:1.0.0"
+    javaVersion = JavaVersion.VERSION_1_7
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

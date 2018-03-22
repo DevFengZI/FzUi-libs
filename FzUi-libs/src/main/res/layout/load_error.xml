@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/w60"
+        android:layout_height="@dimen/w60"
+        android:src="@drawable/img_sorry" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载失败"
+        android:textSize="@dimen/s14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="客服：400-001-5636"
+        android:textSize="@dimen/s10" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/w50"
+        android:layout_height="@dimen/w20"
+        android:layout_marginTop="@dimen/w10"
+        android:background="@drawable/buttonbluecolor"
+        android:text="重试"
+        android:textColor="@color/white"
+        android:textSize="@dimen/s11" />
+
+</LinearLayout>

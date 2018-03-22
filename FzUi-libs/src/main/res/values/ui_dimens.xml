@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+     【放配置类大小，达到一键修改，全局变化】
+     -->
+    <dimen name="fz_min_width">280dp</dimen>
+    <dimen name="fz_spacing_horizontal">@dimen/w16</dimen>
+    <dimen name="fz_spacing_vertical">@dimen/w8</dimen>
+
+    <!--默认字体大小 size-->
+    <dimen name="fz_size_max">24sp</dimen>
+    <dimen name="fz_size_big">20sp</dimen>
+    <dimen name="fz_size_med">18sp</dimen>
+    <dimen name="fz_size_normal">16sp</dimen>
+    <dimen name="fz_size_small">12sp</dimen>
+    <dimen name="fz_size_mini">8sp</dimen>
+</resources>

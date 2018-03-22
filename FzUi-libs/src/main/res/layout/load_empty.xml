@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/w50"
+        android:layout_height="@dimen/w50"
+        android:src="@drawable/round_no_duobaorecord" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载失败" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Stytle_Item_TitleSize"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/w25"
+        android:layout_marginTop="@dimen/w4"
+        android:background="@color/white"
+        android:text="重试" />
+
+</LinearLayout>

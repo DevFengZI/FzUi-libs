@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FloatLayout start -->
+    <attr name="fz_childHorizontalSpacing" format="dimension" />
+    <attr name="fz_childVerticalSpacing" format="dimension" />
+    <attr name="fz_maxNumber" format="integer" />
+    <declare-styleable name="FzFloatLayout">
+        <attr name="android:gravity" />
+        <attr name="fz_childHorizontalSpacing" />
+        <attr name="fz_childVerticalSpacing" />
+        <attr name="android:maxLines" />
+        <attr name="fz_maxNumber" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>
